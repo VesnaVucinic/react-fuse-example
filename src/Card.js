@@ -1,4 +1,5 @@
 import React from "react"
+import "./card.css"
 
 const Card = ({image, title, author, url}) => {
     return (
@@ -20,4 +21,3 @@ const Card = ({image, title, author, url}) => {
   };
 
   export default Card
-  
